@@ -25,8 +25,7 @@ class Vector:
                 x_coordinate=self.x * other,
                 y_coordinate=self.y * other
             )
-        return self.x * other.x + self.y * other.y\
-
+        return self.x * other.x + self.y * other.y
 
     @classmethod
     def create_vector_by_two_points(cls, start_point: tuple,
